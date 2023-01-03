@@ -1,4 +1,3 @@
-
 # The Goodreads Books Project
 
 Welcome to the Goodreads Books project! This project is a data analysis and data science project that explores a dataset of books from [Goodreads](https://www.goodreads.com/). The dataset, which can be found on [Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks), includes information on over 60,000 books, including their titles, authors, genres, ratings, and descriptions.
@@ -13,6 +12,6 @@ In this component, we build and evaluate machine learning models to predict vari
 
 ## Heroku Dashboard
 
-To make the results of our analysis easily accessible to others, we have built a dashboard hosted on Heroku using the `dash` library. The dashboard allows users to interact with the results of our analysis and explore the data in an intuitive way.
+To make the results of our analysis easily accessible to others, we have built a dashboard hosted on [Heroku](https://www.heroku.com/). Heroku is a cloud platform that enables users to build, run, and operate applications entirely in the cloud. Our dashboard, which was built using the `dash` library and `plotly`, allows users to interact with the results of our analysis and explore the data in an intuitive way.
 
 We hope you enjoy exploring the Goodreads Books project! If you have any questions or feedback, please don't hesitate to reach out.

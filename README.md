@@ -2,9 +2,9 @@
 
 Welcome to the Goodreads Books project! This project is a data analysis and data science project that explores a dataset of books from [Goodreads](https://www.goodreads.com/). The dataset, which can be found on [Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks), includes information on over 60,000 books, including their titles, authors, genres, ratings, and descriptions.
 
-## EDA and NLP Analysis
+## EDA - Exploratory Data Analysis
 
-In this component, we perform exploratory data analysis (EDA) and natural language processing (NLP) on the book dataset using Python packages such as `pandas` and `sklearn`. This includes cleaning and preprocessing the data, visualizing key trends and patterns using `plotly`, and extracting insights from the text using NLP techniques.
+In this component, we perform exploratory data analysis (EDA) on the book dataset using Python packages such as `pandas` and `sklearn`. This includes cleaning and preprocessing the data, visualizing key trends and patterns using `plotly`.
 
 ## Machine Learning Modeling
 

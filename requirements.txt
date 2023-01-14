@@ -15,7 +15,7 @@ kiwisolver==1.4.4
 MarkupSafe==2.1.1
 numpy
 packaging==23.0
-pandas==1.5.2
+pandas
 Pillow==9.4.0
 plotly==5.11.0
 pyparsing==3.0.9

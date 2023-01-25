@@ -181,7 +181,7 @@ def update_output(book, author, language, n_pages, rating_count, text_review_cou
                     n_pages, rating_count, text_review_count, year]]
         if model == 'Linear Regression':
             pred = lr.predict(to_pred)
-            prediction = html.H4(f'{pred[0][0]}',
+            prediction = html.H4(f'{pred[0]}',
                                  style={'font-weight': 'bold', 'text-align': 'center', 'margin': '0 auto'}),
         else:
             pred = rfr.predict(to_pred)

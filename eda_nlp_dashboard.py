@@ -45,6 +45,7 @@ rfr = pickle.load(open('rf_model.sav', 'rb'))
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div([
     # Title Prediction/ML

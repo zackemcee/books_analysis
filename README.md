@@ -10,7 +10,7 @@ In this component, we perform exploratory data analysis (EDA) on the book datase
 
 In this component, we build and evaluate machine learning models to predict various properties of the books in the dataset using `sklearn`. This may include models to predict the genre of a book based on its text, or models to predict the rating of a book based on its reviews.
 
-## Heroku Dashboard
+## Dash Renderer Dashboard
 
 To make the results of our analysis easily accessible to others, we have built a dashboard hosted on [Dash Renderer](https://dashboard.render.com/). Heroku is a cloud platform that enables users to build, run, and operate applications entirely in the cloud. Our dashboard, which was built using the `dash` library and `plotly`, allows users to interact with the results of our analysis and explore the data in an intuitive way.<br>
 ### [Dashboard](https://books-eda.onrender.com/)

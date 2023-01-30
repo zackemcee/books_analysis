@@ -8,7 +8,7 @@ In this component, we perform exploratory data analysis (EDA) on the book datase
 
 ## Machine Learning Modeling
 
-In this component, we build and evaluate machine learning models to predict various properties of the books in the dataset using `sklearn`. This may include models to predict the genre of a book based on its text, or models to predict the rating of a book based on its reviews.
+In this component, we build and evaluate machine learning models to predict various properties of the books in the dataset using `sklearn`. This may include models to predict the rating of a book based on its title, author, number of reviews, number of pages...
 
 ## Dash Renderer Dashboard
 

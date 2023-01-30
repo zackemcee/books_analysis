@@ -13,6 +13,7 @@ In this component, we build and evaluate machine learning models to predict vari
 ## Dash Renderer Dashboard
 
 To make the results of our analysis easily accessible to others, we have built a dashboard hosted on [Dash Renderer](https://dashboard.render.com/). Heroku is a cloud platform that enables users to build, run, and operate applications entirely in the cloud. Our dashboard, which was built using the `dash` library and `plotly`, allows users to interact with the results of our analysis and explore the data in an intuitive way.<br>
-### <a href="https://books-eda.onrender.com/" target="_blank">Dashboard</a> (***Mind you it's rather slow to load...)
+### <a href="https://books-eda.onrender.com/" target="_blank">Dashboard</a> 
+>>(***Mind you it's rather slow to load...)
 
 If you have any questions or feedback, please don't hesitate to reach out.

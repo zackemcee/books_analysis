@@ -9,7 +9,8 @@ In this component, we perform exploratory data analysis (EDA) on the book datase
 ## Machine Learning Modeling
 
 In this component, we build and evaluate machine learning models to predict various properties of the books in the dataset using `sklearn`. This may include models to predict the rating of a book based on its title, author, number of reviews, number of pages...
->It is also possible to do a books recommendation algorithm which highlights similarities between titles, however unfortunately, there are no long "description" columns on which we can base our analysis of textual data (using Gensim, NLTK or Sklearn) to analyze similarities based on tokenization & vectorization of sentences in order to create words embeddings and even sentences embeddings, paired with an algorithm such as PCA, UMAP or TSNE.
+<br>
+*It is also possible to do a books recommendation algorithm which highlights similarities between titles, however unfortunately, there are no long "description" columns on which we can base our analysis of textual data (using Gensim, NLTK or Sklearn) to analyze similarities based on tokenization & vectorization of sentences in order to create words embeddings and even sentences embeddings, paired with an algorithm such as PCA, UMAP or TSNE.*
 
 ## Dash Renderer Dashboard
 

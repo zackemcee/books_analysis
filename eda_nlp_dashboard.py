@@ -62,7 +62,7 @@ app.layout = html.Div([
                          np.random.choice(df2.title), id='book', style={'width': '400px', 'margin': '10px'}),
             dcc.Dropdown(df2.authors.sort_values(ascending=True).unique(),
                          np.random.choice(df2.authors), id='author', style={'width': '400px', 'margin': '10px'}),
-            dcc.Dropdown(df2.year.sort_values(ascending=False).unique(),
+            dcc.Dropdown(df2.year.sort_values(ascending=False).unique(),value=2005,
                          id='year', placeholder='Select a year: ', style={'width': '400px', 'margin': '10px'}),
             dcc.Dropdown(df.language_code.sort_values(ascending=True).unique(), 
                          np.random.choice(df2.language_code), id='language', placeholder='Select a language: ', style={'width': '400px', 'margin': '10px'}),
@@ -171,7 +171,7 @@ app.layout = html.Div([
 )
 def update_output(book, author, language, n_pages, rating_count, text_review_count, year, model):
     if author == None or book == None or language == None or model == None:
-        prediction = html.H4(f'Select all remaining features for the model',
+        prediction = html.H4(f'Select a model',
                              style={'font-weight': 'bold', 'text-align': 'center', 'margin': '0 auto', 'color': '#ff0f0f'}),
     else:
         book_val = book_encoder.transform([book])
